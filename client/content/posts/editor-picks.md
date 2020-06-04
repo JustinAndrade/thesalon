@@ -2,7 +2,7 @@
 type: "post"
 title: "Good hair reflects your story and your spirit."
 author: "Kailyne Andrade"
-category: "Styling"
+category: "blog"
 date: "2020-06-04"
 slug: "/editors-picks"
 postImage: "./img/flatlay.jpg"

@@ -14,10 +14,10 @@ export default class BlogIndex extends React.Component {
     return (
       <Layout>
         <Seo
-          title={`Posts Tagged ${category} - Page ${this.props.pageContext.pageNumber}`}
+          title={`The Salon - Our Blog ${this.props.pageContext.pageNumber}`}
         />
         <div className="pv5 flex items-center justify-center bg-gold white">
-          <h1 className="fw1 tc f2 display">Posts Tagged {category}</h1>
+          <h1 className="fw1 tc f2 display">Our Blog</h1>
         </div>
         <div className="mw9 center">
           <Breadcrumbs

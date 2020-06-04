@@ -1,10 +1,6 @@
 module.exports = {
   siteMetadata: {
-    navbarLinks: [
-      { to: "/makeup", name: "Makeup" },
-      { to: "/lifestyle", name: "Lifestyle" },
-      { to: "/blog", name: "blog" },
-    ],
+    navbarLinks: [{ to: "/blog", name: "blog" }],
     title: "The Salon",
     description:
       "The Salon located in New Bedford, MA.  Your destination for hair, get the right look for you.",

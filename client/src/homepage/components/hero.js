@@ -6,13 +6,13 @@ import "tachyons";
 
 export default (props) => (
   <React.Fragment>
-    <div className="h-auto bg-near-white mw9 w-100 flex  items-center justify-center pv5 ph2 center">
+    <div className="h-auto bg-white mw9 w-100 flex  items-center justify-center pv5 ph2 center">
       <Img
         className="w-50 vh-20 mw9 center"
         fluid={props.image}
         alt={props.description}
       />
-      <div className="h-auto bg-near-white mw9 w-100 flex flex-column items-center justify-center pv5 ph2 center">
+      <div className="h-auto bg-white mw9 w-100 flex flex-column items-center justify-center pv5 ph2 center">
         <span className="fw1 display dark-gray db tc w-100 mw7 f3 f2-ns">
           {props.title}
         </span>

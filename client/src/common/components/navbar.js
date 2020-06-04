@@ -122,35 +122,28 @@ export default class Navbar extends React.Component {
                 >
                   {data.site.siteMetadata.siteTitle}
                 </Link>
-                <Link
-                  to="/"
-                  className="sans-serif ttu mid-gray f5 no-underline dn dib-l"
-                >
-                  HOME
-                </Link>
-                {data.site.siteMetadata.navbarLinks.map((navLink) => (
-                  <MultiLink
-                    to={navLink.to}
+                <div className="dn w-100 mw5 flex-l justify-around items-center">
+                  <Link
+                    to="/"
                     className="sans-serif ttu mid-gray f5 no-underline dn dib-l"
                   >
-                    {navLink.name}
-                  </MultiLink>
-                ))}
-              </div>
-              <div className="dn w-100 mw5 flex-l justify-around items-center">
-                <a
-                  href={data.site.siteMetadata.mailChimpUrl}
-                  className="sans-serif ttu gold f5 no-underline dn dib-l"
-                >
-                  SIGN UP
-                </a>
-                <span className="sans-serif mid-gray dn dib-l">|</span>
-                <Link
-                  to="/about"
-                  className="sans-serif ttu mid-gray f5 no-underline dn dib-l"
-                >
-                  ABOUT
-                </Link>
+                    HOME
+                  </Link>
+                  {data.site.siteMetadata.navbarLinks.map((navLink) => (
+                    <MultiLink
+                      to={navLink.to}
+                      className="sans-serif ttu mid-gray f5 no-underline dn dib-l"
+                    >
+                      {navLink.name}
+                    </MultiLink>
+                  ))}
+                  <Link
+                    to="/about"
+                    className="sans-serif ttu mid-gray f5 no-underline dn dib-l"
+                  >
+                    ABOUT
+                  </Link>
+                </div>
               </div>
             </div>
             <SliderMenu

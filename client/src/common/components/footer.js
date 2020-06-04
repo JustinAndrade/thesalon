@@ -93,12 +93,6 @@ export default () => (
             >
               ABOUT US
             </Link>
-            <a
-              href={data.site.siteMetadata.mailChimpUrl}
-              className="near-white sans-serif f5 tracked pv1 db"
-            >
-              NEWS LETTER
-            </a>
           </div>
         </div>
         <div className="w-100 mw9 center silver mb3">
